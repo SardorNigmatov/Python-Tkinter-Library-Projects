@@ -3,7 +3,7 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title("Image Viewer")
-root.iconbitmap("./university.ico")
+root.iconbitmap("./icons/university.ico")
 
 my_img1 = ImageTk.PhotoImage(Image.open("./images/img1.jfif"))
 my_img2 = ImageTk.PhotoImage(Image.open("./images/img2.jfif"))
